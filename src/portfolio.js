@@ -131,15 +131,15 @@ const techStack = {
   experience: [
     {
       Stack: "Smart Contract Development",
-      progressPercentage: "40%"
+      progressPercentage: "50%"
     },
     {
       Stack: "Backend/Design Development", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      progressPercentage: "75%" //Insert relative proficiency in percentage
     },
     {
       Stack: "DevOps",
-      progressPercentage: "20%"
+      progressPercentage: "25%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -152,15 +152,13 @@ const workExperiences = {
   experience: [
     {
       role: "Freelance Blockchain Developer",
-      company: "",
-      companylogo: require("./assets/images/Freelancer.png"),
+      company: "Freelancer",
+      companylogo: require("./assets/images/Freelance Blockchain Developer.png"),
       date: "Dec 2022 – Present",
       desc: "",
       descBullets: [
-        "Worked on Solidity to develop smart contracts for multiple projects and write unit test cases.",
-        "Experience with Javascript, Hardhat, NodeJS, ReactJS, IPFS, Ethers.js",
-        "Good understanding of Tokenomics, Consensus mechanisms, ERC standards, Oracles, Gas utilization, Security, and Auditing.",
-        "Personal Projects completed on Token Exchange, Minting NFT, Staking app."
+        "Worked on Solidity to develop smart contracts, write unit test cases and front-end frameworks.",
+        "Good understanding of Tokenomics, Consensus mechanisms, ERC standards, Oracles, Gas utilization, Security, and Auditing."
       ]
     },
     {
@@ -180,8 +178,8 @@ const workExperiences = {
       companylogo: require("./assets/images/zymr.png"),
       date: "Nov 2021 – May 2022",
       descBullets: [
-        "Project Komplyd(Led the development of project stories across teams and Led junior developers get on board and sail through Peer code reviews and resolution over technical debt and blockers.)",
-        "Project Cytrio(Led the development of Email based workflow feature with multiple teams,Worked with scrum agile methodology and project lifecycle.)"
+        "Project Komplyd(Led the development of project stories across teams and delivered time-bounded results.)",
+        "Project Cytrio(Led the development of Email based workflow feature with multiple teams.)"
       ]
     },
     {
@@ -190,7 +188,7 @@ const workExperiences = {
       companylogo: require("./assets/images/Resolve.png"),
       date: "Sep 2019 – Oct 2021",
       descBullets: [
-        "Led the responsibilities to manage DevOps environments including VM Management and Administration(Hypervisor)",
+        "Led the responsibilities to manage DevOps environments including VM Management and Administration",
         "Managed CI/CD pipeline, Docker containers and kubernetes test deployments"
       ]
     },
@@ -210,8 +208,8 @@ const workExperiences = {
       companylogo: require("./assets/images/fixstream.png"),
       date: "OCt 2013 – May 2019",
       descBullets: [
-        "Designed and Developed a CLI/API based systems for Network Discovery and Monitoring (FixStream Data-Collector) for optimal extraction, transformation, and loading of data from a wide variety of data sources. ",
-        "Designed an autonomous build system for developers for continuous integration (JENKINS) and faster turnaround time for submitted code changes."
+        "Designed and Developed a CLI/API based systems for Network Discovery and Monitoring. ",
+        "Designed an autonomous build system for developers for continuous integration (JENKINS) and faster turnaround time."
       ]
     }
   ]
