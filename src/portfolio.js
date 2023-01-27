@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Aniket Prajapati",
-  title: "Hi all, I'm Aniket",
+  title: "Hey There! I'm Aniket Prajapati",
   subTitle: emoji(
     "A passionate engineer who always thrives to work on end to end products which develop sustainable, futuristic social and technical systems that matters.🚀"
   ),
@@ -48,7 +48,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "ENGINEER WHO WANTS TO EXPLORE AND BUILD ON MULTIPLE TECH STACKS",
+  subTitle: "turning ideas into real life products is my calling",
   skills: [
     emoji(
       "⚡ I am enthusiastic about web3 ecosystem and bullish on blockchain economy."
@@ -346,8 +346,9 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle: emoji(
+    "Thanks for stopping by, I’m currently looking to join a new team. If you think we might be a good fit for one another, I’d love to connect. Don't be a stranger! 👋"
+  ),
   number: "+91-9742042885",
   email_address: "anikethprajapati@gmail.com"
 };
