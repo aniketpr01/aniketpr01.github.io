@@ -23,7 +23,7 @@ const greeting = {
   username: "Aniket Prajapati",
   title: "Hey There! I'm Aniket Prajapati",
   subTitle: emoji(
-    "A passionate engineer who always thrives to work on end to end products which develop sustainable, futuristic social and technical systems that matters.🚀"
+    "A growth-oriented engineer who thrives on working towards end-to-end products and envisions building sustainable, social and scalable technology that matters.🚀"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1Okjiu43ltsNvbDaT89kh730gGUMvLALm/view?usp=sharing", // Set to empty to hide the button
@@ -51,10 +51,10 @@ const skillsSection = {
   subTitle: "turning ideas into real life products is my calling",
   skills: [
     emoji(
-      "⚡ I am enthusiastic about web3 ecosystem and bullish on blockchain economy."
+      "⚡ With over 9 years of experience in software development, I have worked with multiple technology stacks as a Backend developer, DevOps engineer, Blockchain developer and Open Source Contributor with exemplary managerial abilities."
     ),
     emoji(
-      "⚡ Have more than 9 years of demonstrated experience as Backend developer, DevOps engineer and also led the responsibilities to work with multiple teams on delivering successful projects and features."
+      "⚡ Developed a vital part of a product at my first startup, Designed, Developed and Managed CI/CD pipeline, Led multiple teams building features on scheduled timeframes, and passionate about web3 ecosystem development. Solid at Client Communication, Leadership, Problem Solving and Adaptability."
     )
   ],
 
