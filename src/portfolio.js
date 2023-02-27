@@ -228,8 +228,20 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some Projects AND Hackathons that I Participated and lead",
   projects: [
+    {
+      image: require("./assets/images/ChainBlog.png"),
+      projectName: "ChainBlog",
+      projectDesc:
+        "A Decentralized and open blogging platform for anyone to publish any type of content without any limits and get rewarded by the community",
+      footerLink: [
+        {
+          name: "Visit Github",
+          url: "https://github.com/aniketpr01/chainblog"
+        }
+      ]
+    },
     {
       image: require("./assets/images/TokenExchange.png"),
       projectName: "Token Exchange",
@@ -241,18 +253,6 @@ const bigProjects = {
           url: "https://github.com/aniketpr01/token-exchange"
         }
         //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/mintNFT.png"),
-      projectName: "Mint NFT",
-      projectDesc:
-        "This project mint's NFT on Goerli testnet. It generates a fairly random image, encodes it and saves it on blockchain. This will be optimized later to use IPFS(pinata)",
-      footerLink: [
-        {
-          name: "Visit Github",
-          url: "https://github.com/aniketpr01/mint-nft"
-        }
       ]
     }
   ],
