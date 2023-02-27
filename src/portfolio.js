@@ -26,7 +26,7 @@ const greeting = {
     "A growth-oriented engineer who thrives on working towards end-to-end products and envisions building sustainable, social and scalable technology that matters.🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Okjiu43ltsNvbDaT89kh730gGUMvLALm/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1yGh7NBj-5UWYXRYcHR-uyi2Av7RPwTLg/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -151,14 +151,15 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Freelance Blockchain Developer",
-      company: "Freelancer",
+      role: "Career Transition",
+      company: "Career Break",
       companylogo: require("./assets/images/Freelance Blockchain Developer.png"),
-      date: "Dec 2022 – Present",
+      date: "Nov 2022 – Present",
       desc: "",
       descBullets: [
-        "Worked on Solidity to develop smart contracts, write unit test cases and front-end frameworks.",
-        "Good understanding of Tokenomics, Consensus mechanisms, ERC standards, Oracles, Gas utilization, Security, and Auditing."
+        "Designed and Developing Blogging Dapp in a hackathon using Solidity, Javascript, Foundry framework, web3.js,IPFS(Filecoin), Video(livepeer), graph protocol, NextJS for UI rendering on Polygon.",
+        "Working with cairo for developing Zero Knowledge proof",
+        "Working with Javascript, Truffle, Hardhat, NodeJS, IPFS, Web3.js, MERN Stack, Typescript, Node.js"
       ]
     },
     {
