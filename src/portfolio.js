@@ -27,6 +27,7 @@ const greeting = {
   ),
   resumeLink:
     "https://drive.google.com/file/d/1yGh7NBj-5UWYXRYcHR-uyi2Av7RPwTLg/view?usp=sharing", // Set to empty to hide the button
+  meetingLink: "https://calendly.com/aniket-prajapati", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

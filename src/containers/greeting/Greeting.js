@@ -47,6 +47,13 @@ export default function Greeting() {
                     href={greeting.resumeLink}
                   />
                 )}
+                {greeting.meetingLink && (
+                  <Button
+                    text="Schedule Meeting"
+                    newTab={true}
+                    href={greeting.meetingLink}
+                  />
+                )}
               </div>
             </div>
           </div>
