@@ -26,7 +26,7 @@ const greeting = {
     "A growth-oriented engineer who thrives on working towards end-to-end products and envisions building sustainable, social and scalable technology that matters.🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1yGh7NBj-5UWYXRYcHR-uyi2Av7RPwTLg/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1mwXPMMeLc7fFmknl-md9bVOj7Em1RKq_/view?usp=sharing", // Set to empty to hide the button
   meetingLink: "https://zcal.co/aniketprajapati", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
