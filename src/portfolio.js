@@ -26,7 +26,7 @@ const greeting = {
     "A growth-oriented engineer who thrives on working towards end-to-end products and envisions building sustainable, social and scalable technology that matters.🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1mwXPMMeLc7fFmknl-md9bVOj7Em1RKq_/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1WPuqcbosjCAvAF87Ol84eXO7NMb9qbrP/view?usp=sharing", // Set to empty to hide the button
   meetingLink: "https://zcal.co/aniketprajapati", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -52,10 +52,7 @@ const skillsSection = {
   subTitle: "turning ideas into real life products is my calling",
   skills: [
     emoji(
-      "⚡ With over 9 years of experience in software development, I have worked with multiple technology stacks as a Backend developer, DevOps engineer, Blockchain developer and Open Source Contributor with exemplary managerial abilities."
-    ),
-    emoji(
-      "⚡ Developed a vital part of a product at my first startup, Designed, Developed and Managed CI/CD pipeline, Led multiple teams building features on scheduled timeframes, and passionate about web3 ecosystem development. Solid at Client Communication, Leadership, Problem Solving and Adaptability."
+      "⚡ A Prodigious software developer with 9+ years of diversified experience in Backend, DevOps, Blockchain, Web3 Technology, Smart Contracts for conceptualizing, designing, and developing applications from scratch to release & translating real-world problems into functional prototypes by leveraging a precise combination of technical instinct & managerial capabilities."
     )
   ],
 
@@ -106,6 +103,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "solidity",
       fontAwesomeClassname: "fab fa-hive"
+    },
+    {
+      skillName: "rust",
+      fontAwesomeClassname: "fab fa-rust"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -152,67 +153,26 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Career Transition",
-      company: "Career Break",
-      companylogo: require("./assets/images/Freelance Blockchain Developer.png"),
-      date: "Nov 2022 – Present",
+      role: "Blockchain Developer - Freelance",
+      company: "DCryptoTools",
+      companylogo: require("./assets/images/dcryptotools.png"),
+      date: "Jun 2022 – Present",
       desc: "",
-      descBullets: [
-        "Designed and Developing Blogging Dapp in a hackathon using Solidity, Javascript, Foundry framework, web3.js,IPFS(Filecoin), Video(livepeer), graph protocol, NextJS for UI rendering on Polygon.",
-        "Working with cairo for developing Zero Knowledge proof",
-        "Working with Javascript, Truffle, Hardhat, NodeJS, IPFS, Web3.js, MERN Stack, Typescript, Node.js"
-      ]
+      descBullets: []
     },
     {
-      role: "Automation Lead",
-      company: "SecurEyes",
-      companylogo: require("./assets/images/secureyes.jpeg"),
-      date: "Jul 2012 – Oct 2022",
-      desc: "",
-      descBullets: [
-        "Led the design and development of an automation module for network scan.",
-        "Led the coding, testing, and deployment of modules."
-      ]
-    },
-    {
-      role: "Lead Software Engineer",
+      role: "Lead Software Engineer - Backend",
       company: "Zymr",
       companylogo: require("./assets/images/zymr.png"),
       date: "Nov 2021 – May 2022",
-      descBullets: [
-        "Project Komplyd(Led the development of project stories across teams and delivered time-bounded results.)",
-        "Project Cytrio(Led the development of Email based workflow feature with multiple teams.)"
-      ]
-    },
-    {
-      role: "Senior Software Engineer",
-      company: "Resolve",
-      companylogo: require("./assets/images/Resolve.png"),
-      date: "Sep 2019 – Oct 2021",
-      descBullets: [
-        "Led the responsibilities to manage DevOps environments including VM Management and Administration",
-        "Managed CI/CD pipeline, Docker containers and kubernetes test deployments"
-      ]
-    },
-    {
-      role: "Technical Lead",
-      company: "Crest Data",
-      companylogo: require("./assets/images/crestdata.jpeg"),
-      date: "Jun 2019 – Aug 2019",
-      descBullets: [
-        "Led the team deliver projects based on ServiceNow.",
-        "Responsible for the SCRUM/project management and customer interaction for requirement gathering and analysis"
-      ]
+      descBullets: []
     },
     {
       role: "Senior Software Engineer",
       company: "FixStream",
-      companylogo: require("./assets/images/fixstream.png"),
-      date: "OCt 2013 – May 2019",
-      descBullets: [
-        "Designed and Developed a CLI/API based systems for Network Discovery and Monitoring. ",
-        "Designed an autonomous build system for developers for continuous integration (JENKINS) and faster turnaround time."
-      ]
+      companylogo: require("./assets/images/fixstreamresolve.jpeg"),
+      date: "Oct 2013 – Sep 2021",
+      descBullets: []
     }
   ]
 };
