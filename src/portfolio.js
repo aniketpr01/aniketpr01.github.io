@@ -309,7 +309,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: emoji(
-    "Thanks for stopping by, I’m currently looking to join a new team. If you think we might be a good fit for one another, I’d love to connect. Don't be a stranger! 👋"
+    "Thanks for stopping by, Interested to collaborate? I’d love to connect. Don't be a stranger! 👋"
   ),
   number: "+91-9742042885",
   email_address: "anikethprajapati@gmail.com"
