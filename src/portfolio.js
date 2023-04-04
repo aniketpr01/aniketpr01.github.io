@@ -26,8 +26,8 @@ const greeting = {
     "A growth-oriented engineer who thrives on working towards end-to-end products and envisions building sustainable, social and scalable technology that matters.🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/16kFxoSJcaMndc392IjtgeSCBE7kHRhfz/view?usp=sharing", // Set to empty to hide the button
-  meetingLink: "https://zcal.co/aniketprajapati", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1mFqrVOPDFtZtgOyYmPhkAdg0OP3_2TDw/view?usp=sharing", // Set to empty to hide the button
+  meetingLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -156,7 +156,7 @@ const workExperiences = {
       role: "Blockchain Developer - Freelance",
       company: "DCryptoTools",
       companylogo: require("./assets/images/dcryptotools.png"),
-      date: "Jun 2022 – Present",
+      date: "Sep 2022 – Present",
       desc: "",
       descBullets: []
     },
